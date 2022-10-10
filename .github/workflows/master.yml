@@ -9,6 +9,8 @@ on:
     branches:
       - 'feature/**'
       - 'develop'
+  workflow_dispatch:
+
 jobs:
   build:
     name: develop build
